@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/logo-3.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo-3.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.webp" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -32,13 +32,47 @@
 
 </head>
 
+<style>
+  .floating-btn {
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 9999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .whatsapp {
+    bottom: 70px;
+  }
+
+  .messenger {
+    bottom: 20px;
+  }
+
+  .floating-btn img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
+</style>
+
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-2.png">
+        <img src="assets/img/logo-2.webp">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -64,7 +98,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/img/hero-bg.webp" alt="" data-aos="fade-in">
 
       <div class="container">
         <div class="row">
@@ -126,14 +160,14 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.webp" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -302,7 +336,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-4.jpg" alt="Custom Development" class="img-fluid">
+                <img src="assets/img/working-4.webp" alt="Custom Development" class="img-fluid">
               </div>
             </div>
           </div>
@@ -328,7 +362,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-1.jpg" alt="Deployment & Integration" class="img-fluid">
+                <img src="assets/img/working-1.webp" alt="Deployment & Integration" class="img-fluid">
               </div>
             </div>
           </div>
@@ -354,7 +388,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-2.jpg" alt="IT Consultancy" class="img-fluid">
+                <img src="assets/img/working-2.webp" alt="IT Consultancy" class="img-fluid">
               </div>
             </div>
           </div>
@@ -380,7 +414,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/working-3.jpg" alt="Managed Solutions" class="img-fluid">
+                <img src="assets/img/working-3.webp" alt="Managed Solutions" class="img-fluid">
               </div>
             </div>
           </div>
@@ -526,7 +560,7 @@
             <!-- EhareTech - Finance -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
               <div class="portfolio-content h-100">
-                <img src="assets/img/eharetech.PNG" class="img-fluid" alt="EhareTech">
+                <img src="assets/img/eharetech.webp" class="img-fluid" alt="EhareTech">
                 <div class="portfolio-info">
                   <h4>EhareTech</h4>
                   <p>Next-generation finance & e-invoicing</p>
@@ -554,7 +588,7 @@
             <!-- Imoujar - E-commerce -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
               <div class="portfolio-content h-100">
-                <img src="assets/img/imoujar.PNG" class="img-fluid" alt="Imoujar">
+                <img src="assets/img/imoujar.webp" class="img-fluid" alt="Imoujar">
                 <div class="portfolio-info">
                   <h4>Imoujar</h4>
                   <p>Auto spare parts e-commerce platform</p>
@@ -568,7 +602,7 @@
             <!-- HB Tronics - Training -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-training">
               <div class="portfolio-content h-100">
-                <img src="assets/img/hb troncis.PNG" class="img-fluid" alt="HB Tronics">
+                <img src="assets/img/hb troncis.webp" class="img-fluid" alt="HB Tronics">
                 <div class="portfolio-info">
                   <h4>HB Tronics</h4>
                   <p>Automotive electronics training center</p>
@@ -765,7 +799,9 @@
     </section>
 
 
-
+    <a href="https://wa.me/+213550904908" target="_blank" class="floating-btn whatsapp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
